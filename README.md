@@ -1,6 +1,5 @@
+# ORIGINAL REPOSITORY: [PHPfanatic/clarifai](https://github.com/PHPfanatic/clarifai)
 # Clarifai PHP Library 
-[![Build Status](https://travis-ci.org/PHPfanatic/clarifai.svg?branch=master)](https://travis-ci.org/PHPfanatic/clarifai)
-[![GitHub version](https://badge.fury.io/gh/phpfanatic%2Fclarifai.png)](https://badge.fury.io/gh/phpfanatic%2Fclarifai)
 
 Clarifai API Library, PHP/Composer implementation of the clarifai api. ([clarifai](https://clarifai.com/)).
 PHPfanatic's PHP library brings you the power of clarifai's image recognition API wrapped in an easy to use PHP library that you can
@@ -12,21 +11,13 @@ Build smarter apps faster with Clarifai’s powerful visual recognition technolo
 
 Add the package to your composer implementation.
 ```
-composer require phpfanatic/clarifai
+composer require acrossoffwest/clarifai
 ```
-
-or
-
-Add the package manually by downloading the most recent stable version release from Github and include the src/ directory
-within your own project.
-
-* [zip](https://github.com/PHPfanatic/clarifai/archive/2.0.1.zip)
-
-* [tar](https://github.com/PHPfanatic/clarifai/archive/2.0.1.gz)
 
 ### Requirements
 
-* PHP - 5.6, 7.0 - May work with ealier version, untested at this time.
+* PHP - 5.6, 7.0
+* PHP - 8.0 - not tested
 * cURL - *
 * Clarifai API Key - [clarifai](https://developer.clarifai.com/pricing/) 
 * PHPUnit - to run tests (optional).
@@ -44,7 +35,7 @@ $result = $client->Predict();
 
 ## Documentation
 
-[PHPfanatic - ClarifAI documentation](https://github.com/PHPfanatic/clarifai/wiki/)
+[PHPfanatic - ClarifAI documentation](https://github.com/acrossoffwest/clarifai/wiki/)
 
 ## Change History
 * 2.0.1 - Patched clientversion variable.

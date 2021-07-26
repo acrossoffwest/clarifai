@@ -1,9 +1,9 @@
 {
-    "name": "phpfanatic/clarifai",
+    "name": "acrossoffwest/clarifai",
     "description": "clarifAI PHP Library",
     "type": "library",
     "license": "MIT",
-    "homepage": "https://github.com/PHPfanatic/clarifai",
+    "homepage": "https://github.com/acrossoffwest/clarifai",
     "keywords": ["php","clarifai","machine learning","recognition"],
     "authors": [
         {
@@ -12,7 +12,7 @@
         }
     ],
     "require": {
-    	"php": "^5.6|^7.0"
+    	"php": "^5.6|^7.0|^8.0"
     },
     "require-dev": {
         "phpunit/phpunit": "5.5.*"
